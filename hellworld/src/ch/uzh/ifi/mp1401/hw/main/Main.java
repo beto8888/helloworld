@@ -6,4 +6,11 @@ public class Main {
     System.out.println("Hello World!");
   }
 
+  public static void internCall() {
+    this.callAFunction();
+  }
+  
+  public static void callAFunction() {
+    System.out.println("First Fork");
+  }
 }
